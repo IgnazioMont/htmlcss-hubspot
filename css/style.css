@@ -51,7 +51,6 @@ h4 {
     width: 800px;
     margin: auto;
 }
-
 .button {
     display: inline-block;
     padding: 20px 35px;
@@ -63,12 +62,14 @@ h4 {
 }
 
 
+
 /* HEADER */
 header {
     margin-top: 80px;
 }
 
 /* NAV + MENU */
+/* Nav */
 .clearfix::after {
     content: "";
     display: table;
@@ -77,15 +78,15 @@ header {
 .col {
     float: left;
 }
-
 nav {
     padding: 15px 0;
     margin-bottom: 0;
 }
-
 header .logo img {
     color: #33475b;
 }
+
+/* Menu */
 header .menu li {
     display: inline-block;
     margin-left: 20px;
@@ -94,17 +95,14 @@ header .menu li {
 .menu-right {
     float: right;
 }
-
 .menu a {
     color: #33475b;
     text-decoration: none;
 }
-
 .menu li i {
     margin-left: 5px;
 }
 
-/* Teaser */
 /* Background img */
 header .bg-img {
     height: 800px;
@@ -113,11 +111,12 @@ header .bg-img {
     background-repeat: no-repeat;
     background-position: center;
 }
-
+/* Teaser */
 .teaser {
     padding-top: 50px;
     width: 52%;
 }
+
 
 /* MAIN */
 /* Head */
@@ -133,33 +132,30 @@ header .bg-img {
     font-size: 30px;
 }
 
-/* Box 1 */
-.box1 {
+/* Box 1 MAIN*/
+.box1, .text-centered {
     padding: 60px;
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 0 6px #d9d9d9;
 }
 /* Container img + button */
-.img_button {
+.box1 .img_button {
     text-align: center;
     margin: auto;
     width: 30%;
 }
-
 .box1 .col-image {
     width: 45%;
     margin: auto;
 }
-
 .box1 .col-text { 
     width: 70%;
 }
-
+/* List 1st BOX */
 .box1 .goals ul {
     margin-top: 20px;
 }
-
 .box1 .checks li {
     display: inline-block;
     text-decoration: none;
@@ -170,7 +166,34 @@ header .bg-img {
     color: #fe775a;
 }
 
-/* Boxes */
+/* 3 boxes */
 .boxes {
     margin: 25px 0;
+}
+.boxes .text-centered {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.three-col {
+    margin-top: 5%;
+}
+.three-col .col {
+    width: 30%;
+}
+.three-col .col:nth-child(2) {
+    margin: 0 5%;
+}
+.text-centered .col-image {
+    height: 150px;
+}
+.col-image img {
+    margin: auto;
+    height: fit-content;
+}
+.text-centered .col-text {
+    /* test */
+    background-color: rgb(179, 236, 192);
+    
+    margin-top: 20px;
 }
