@@ -110,19 +110,31 @@ h1 {
 }
 
 /* MAIN */
+/* Head */
 .head-main {
     padding: 30px 0;
     text-align: center;
 }
-
-.logo-main img {
+.head-main .logo-main img {
     width: 20%;
     margin: auto;
 }
 
-.box1 > .col {
+/* Box 1 */
+.box1 {
+    padding: 30px;
+    border: 1px solid black;
+}
+.img_button {
+    text-align: center;
+    margin: auto;
     width: 30%;
     background-color: yellowgreen;
+}
+
+.col-image {
+    width: 60%;
+    margin: auto;
 }
 
 .box1 .col-text {
