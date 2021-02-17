@@ -17,8 +17,6 @@ img {
         e che vada su una nuova riga */
     display: block;
 }
-
-/* Main text */
 .main-text {
     font-size: 14px;
     line-height: 1.8;
@@ -27,6 +25,21 @@ img {
 .text-low {
     font-size: 10px;
     margin: 12px 0;
+}
+h1 {
+    font-size: 50px;
+}
+h3 {
+    font-size: 23px;
+}
+h4 {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.line {
+    height: 1px;
+    width: 300px;
+    border-bottom: 2px solid #899397;
 }
 
 /* Container generico che racchiude tutto */
@@ -46,7 +59,7 @@ img {
     border-radius: 6px;
     color: white;
     text-decoration: none;
-    margin: 25px 0;
+    margin-top: 20px;
 }
 
 
@@ -106,10 +119,6 @@ header .bg-img {
     width: 52%;
 }
 
-h1 {
-    font-size: 50px;
-}
-
 /* MAIN */
 /* Head */
 .head-main {
@@ -120,30 +129,48 @@ h1 {
     width: 20%;
     margin: auto;
 }
+.descript h2 {
+    font-size: 30px;
+}
 
 /* Box 1 */
 .box1 {
-    padding: 60px 40px;
+    padding: 60px;
     background-color: white;
     border-radius: 8px;
-    box-shadow: 3px black;
+    box-shadow: 0 0 6px #d9d9d9;
 }
+/* Container img + button */
 .img_button {
     text-align: center;
     margin: auto;
     width: 30%;
 }
 
-.col-image {
-    width: 60%;
+.box1 .col-image {
+    width: 45%;
     margin: auto;
 }
 
-.box1 .col-text {
+.box1 .col-text { 
     width: 70%;
-    background-color: tomato;
 }
 
-h3 {
-    font-size: 18px;
+.box1 .goals ul {
+    margin-top: 20px;
+}
+
+.box1 .checks li {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 30px;
+}
+.box1 .checks li .fa-check-circle {
+    margin-right: 10px;
+    color: #fe775a;
+}
+
+/* Boxes */
+.boxes {
+    margin: 25px 0;
 }
