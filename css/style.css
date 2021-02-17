@@ -20,12 +20,24 @@ img {
 /* Main text */
 .main-text {
     font-size: 14px;
+    line-height: 1.8;
+    margin: 20px 0;
 }
 
 /* Container generico che racchiude tutto */
 .container {
     width: 1050px;
     margin: auto;
+}
+
+.button {
+    display: inline-block;
+    padding: 20px 35px;
+    background-color: #fe775a;
+    border-radius: 6px;
+    color: white;
+    text-decoration: none;
+    margin: 20px 0;
 }
 
 
@@ -45,12 +57,13 @@ header {
 }
 
 nav {
-    /* test */
-    background-color: orangered;
     padding: 15px 0;
     margin-bottom: 0;
 }
 
+header .logo img {
+    color: #33475b;
+}
 header .menu li {
     display: inline-block;
     margin-left: 20px;
@@ -77,6 +90,11 @@ header .bg-img {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.teaser {
+    padding-top: 50px;
+    width: 52%;
 }
 
 h1 {
