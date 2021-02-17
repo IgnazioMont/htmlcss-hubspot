@@ -23,6 +23,10 @@ img {
     line-height: 1.8;
     margin: 20px 0;
 }
+.text-low {
+    font-size: 10px;
+    margin: 12px 0;
+}
 
 /* Container generico che racchiude tutto */
 .container {
@@ -99,4 +103,15 @@ header .bg-img {
 
 h1 {
     font-size: 50px;
+}
+
+/* MAIN */
+.head-main {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.logo-main img {
+    width: 20%;
+    margin: auto;
 }
