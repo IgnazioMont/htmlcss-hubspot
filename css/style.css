@@ -8,6 +8,11 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+/* Main text */
+.main-text {
+    font-size: 14px;
+    color: #33475b;
+}
 
 /* Container generico che racchiude tutto */
 .container {
@@ -15,6 +20,7 @@ body {
     margin: 80px auto 10px auto;
 }
 
+/* NAV + MENU */
 .clearfix::after {
     content: "";
     display: table;
@@ -29,11 +35,29 @@ nav {
     background-color: orangered;
     padding: 15px 0;
 }
+
 header .menu li {
     display: inline-block;
-    margin: 0 20px;
+    margin-left: 20px;
     line-height: 30px;
 }
 .menu-right {
     float: right;
+}
+
+.menu a {
+    color: #33475b;
+    text-decoration: none;
+}
+
+.menu li i {
+    margin-left: 5px;
+}
+
+header {
+    height: 800px;
+    background-image: url("../img/jumbotron.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
