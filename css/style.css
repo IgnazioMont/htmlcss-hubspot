@@ -33,6 +33,10 @@ img {
     width: 1050px;
     margin: auto;
 }
+.container-small {
+    width: 800px;
+    margin: auto;
+}
 
 .button {
     display: inline-block;
@@ -114,4 +118,14 @@ h1 {
 .logo-main img {
     width: 20%;
     margin: auto;
+}
+
+.box1 > .col {
+    width: 30%;
+    background-color: yellowgreen;
+}
+
+.box1 .col-text {
+    width: 70%;
+    background-color: tomato;
 }
