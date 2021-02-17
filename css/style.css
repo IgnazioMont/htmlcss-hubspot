@@ -6,6 +6,34 @@
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;;
+    font-family: 'Montserrat', sans-serif;
 }
 
+/* Container generico che racchiude tutto */
+.container {
+    width: 1050px;
+    margin: 80px auto 10px auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.col {
+    float: left;
+}
+
+nav {
+    /* test */
+    background-color: orangered;
+    padding: 15px 0;
+}
+header .menu li {
+    display: inline-block;
+    margin: 0 20px;
+    line-height: 30px;
+}
+.menu-right {
+    float: right;
+}
