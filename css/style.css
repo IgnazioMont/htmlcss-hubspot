@@ -158,12 +158,12 @@ header .bg-img {
 }
 .box1 .checks li {
     display: inline-block;
-    text-decoration: none;
     margin-right: 30px;
 }
-.box1 .checks li .fa-check-circle {
+.fa-check-circle {
     margin-right: 10px;
     color: #fe775a;
+    text-decoration: none;
 }
 
 /* 3 boxes */
@@ -173,9 +173,12 @@ header .bg-img {
 .boxes .text-centered {
     text-align: center;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
-.text-centered {
-    /* Sistemare il padding per le 4 righe uguali di testo*/
+/* Regola sovrascritta per spaziare meglio il testo equamente sulle righe */
+.col.text-centered {
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .three-col {
     margin-top: 5%;
@@ -192,7 +195,18 @@ header .bg-img {
 }
 .text-centered .col-text {
     /* test */
-    background-color: rgb(179, 236, 192);
-    
     margin-top: 20px;
+}
+.boxes .line {
+    width: 100%;
+    margin-top: 80px;
+}
+.boxes h4 {
+    margin: 30px 0;
+}
+.boxes .checks {
+    text-align: left;
+    list-style-type: none;
+    line-height: 1.4;
+    margin-bottom: 30px;
 }
