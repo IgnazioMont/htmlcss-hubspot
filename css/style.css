@@ -220,7 +220,7 @@ header .bg-img {
 .bg-color {
     background-color: #00abb7;
     padding: 35px 0;
-    margin: 50px 0;
+    margin: 35px 0;
     color: white;
 }
 .grid {
@@ -272,8 +272,16 @@ header .bg-img {
 .sect-3 .card img {
     height: 100%;
 }
-
-
 .sect-3 .teaser {
-    padding: 30px 0
+    padding: 30px 0;
+    width: 43%;
+}
+
+.sect-3 .img-right {
+    float: right;
+    height: 100%;
+
+}
+.sect-3 .img-right img {
+    width: 250px;
 }
