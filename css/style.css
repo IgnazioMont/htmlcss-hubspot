@@ -303,4 +303,22 @@ footer .bg-color {
 
 .four-col li {
     list-style-type: none;
+    line-height: 2.5;
+}
+
+.four-col li:first-child {
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+.four-col ul .button {
+    margin: 16px 0;
+    color: #32495b;
+    background-color: #dadee0;
+    padding: 0 20px;
+}
+.four-col li i {
+    color: white;
+    font-size: 20px;
+    width: 15%;
 }
