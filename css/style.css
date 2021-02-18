@@ -309,6 +309,10 @@ footer .bg-color {
     list-style-type: none;
     line-height: 2.5;
 }
+.four-col ul a {
+    color: #cbd6e2;
+    text-decoration: none;
+}
 .four-col li:first-child {
     font-weight: 700;
     margin-bottom: 14px;
@@ -339,6 +343,7 @@ footer .languages.main-text a {
     color: #cbd6e2;
 }
 
+/* Bottom-row */
 /* Logo + copyright */
 footer .bottom-row {
     padding-top: 35px;
