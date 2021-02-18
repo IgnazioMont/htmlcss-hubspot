@@ -291,34 +291,42 @@ header .bg-img {
     width: 250px;
 }
 
+
 /* FOOTER */
 footer .bg-color {
     background-color: #32495b;
 }
-
+/* 4 columns */
 .four-col .col {
     width: 25%;
     padding-right: 20px;
 }
-
 .four-col li {
     list-style-type: none;
     line-height: 2.5;
 }
-
 .four-col li:first-child {
     font-weight: 700;
     margin-bottom: 14px;
 }
-
+/* Button */
 .four-col ul .button {
     margin: 16px 0;
     color: #32495b;
     background-color: #dadee0;
     padding: 0 20px;
 }
+/* Social imgs */
 .four-col li i {
     color: white;
     font-size: 20px;
     width: 15%;
+}
+
+/* languages */
+footer .main-text {
+    text-align: center;
+}
+footer span {
+    margin: 0 20px;
 }
