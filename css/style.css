@@ -69,9 +69,46 @@ h4 {
 
 
 
+
+
+/* Fixed login */
+.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #f4f9fd;
+}
+.choose {
+    margin-top: 20px;
+}
+.fixed .col.choose {
+    font-size: 15px;
+}
+.fixed .col.login {
+    float: right;
+}
+.fixed .button {
+    padding: 10px;
+}
+
+
+.fixed .fa-search {
+    color: #00a4bd;
+}
+
+.fixed li {
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+
+
+
+
 /* HEADER */
 header {
-    margin-top: 80px;
+    margin-top: 70px;
 }
 
 /* NAV + MENU */
@@ -298,6 +335,7 @@ footer .bg-footer {
     background-color: #32495b;
     margin-bottom: 0;
     padding-bottom: 0;
+    padding-top: 16px;
     color: #cbd6e2;
 }
 
