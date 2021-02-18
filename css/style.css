@@ -224,3 +224,31 @@ header .bg-img {
     margin: 50px 0;
     color: white;
 }
+
+/* TEST */
+.row {
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    border: 1px solid white;
+    width: 24%;
+    padding: 15px;
+}
+
+ /* General img rules*/
+.card img {
+    width: 20%;
+    margin: auto;
+}
+
+.card h2 {
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.card .fa-plus {
+    font-size: 10px;
+    vertical-align: middle;
+}
