@@ -199,7 +199,6 @@ header .bg-img {
     margin: auto;
 }
 .text-centered .col-text {
-    /* test */
     margin-top: 20px;
 }
 .boxes .line {
@@ -272,4 +271,9 @@ header .bg-img {
 }
 .sect-3 .card img {
     height: 100%;
+}
+
+
+.sect-3 .teaser {
+    padding: 30px 0
 }
