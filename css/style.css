@@ -174,7 +174,9 @@ header .bg-img {
     text-align: center;
     padding-top: 20px;
 }
-
+.text-centered {
+    /* Sistemare il padding per le 4 righe uguali di testo*/
+}
 .three-col {
     margin-top: 5%;
 }
@@ -184,12 +186,9 @@ header .bg-img {
 .three-col .col:nth-child(2) {
     margin: 0 5%;
 }
-.text-centered .col-image {
-    height: 150px;
-}
 .col-image img {
+    height: 90px;
     margin: auto;
-    height: fit-content;
 }
 .text-centered .col-text {
     /* test */
