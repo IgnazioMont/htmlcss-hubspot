@@ -26,8 +26,14 @@ img {
     font-size: 10px;
     margin: 12px 0;
 }
+.descript {
+    text-align: center;
+}
 h1 {
     font-size: 50px;
+}
+h2 {
+    font-size: 30px;
 }
 h3 {
     font-size: 23px;
@@ -119,18 +125,17 @@ header .bg-img {
 
 
 /* MAIN */
+/* SECTION 1 */
+
 /* Head */
 .head-main {
     padding: 30px 0;
-    text-align: center;
 }
 .head-main .logo-main img {
     width: 20%;
     margin: auto;
 }
-.descript h2 {
-    font-size: 30px;
-}
+
 
 /* Box 1 MAIN*/
 .box1, .text-centered {
@@ -209,4 +214,13 @@ header .bg-img {
     list-style-type: none;
     line-height: 1.4;
     margin-bottom: 30px;
+}
+
+
+/* SECTION 2 */
+.bg-color {
+    background-color: #00abb7;
+    padding: 35px 0;
+    margin: 50px 0;
+    color: white;
 }
