@@ -24,7 +24,7 @@ img {
 }
 .text-low {
     font-size: 10px;
-    margin: 12px 0;
+    margin: 30px 0;
 }
 .descript {
     text-align: center;
@@ -226,16 +226,19 @@ header .bg-img {
 .grid {
     padding: 30px 0;
 }
+.grid .text-low {
+    margin: 15px 0;
+}
 .row {
     text-align: center;
 }
 .card {
     display: inline-block;
-    border-collapse: collapse;
     border-right: 1px solid white;
     border-bottom: 1px solid white;
     width: 24%;
     padding: 15px;
+    margin-left: -5px;
 }
 .row:last-child .card {
     border-bottom: none;
@@ -263,8 +266,10 @@ header .bg-img {
     width: 160px;
     text-align: left;
 }
-.sect-3 .card {
+.sect-3 ul .card {
     vertical-align: middle;
+    border: none;
+
 }
 .sect-3 .menu-right {
     width: 60%;
@@ -284,4 +289,18 @@ header .bg-img {
 }
 .sect-3 .img-right img {
     width: 250px;
+}
+
+/* FOOTER */
+footer .bg-color {
+    background-color: #32495b;
+}
+
+.four-col .col {
+    width: 25%;
+    padding-right: 20px;
+}
+
+.four-col li {
+    list-style-type: none;
 }
