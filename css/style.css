@@ -33,7 +33,7 @@ h1 {
     font-size: 50px;
 }
 h2 {
-    font-size: 30px;
+    font-size: 35px;
 }
 h3 {
     font-size: 23px;
@@ -224,31 +224,52 @@ header .bg-img {
     margin: 50px 0;
     color: white;
 }
-
-/* TEST */
+.grid {
+    padding: 30px 0;
+}
 .row {
     text-align: center;
 }
-
 .card {
     display: inline-block;
-    border: 1px solid white;
+    border-collapse: collapse;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
     width: 24%;
     padding: 15px;
 }
-
- /* General img rules*/
+.row:last-child .card {
+    border-bottom: none;
+}
+.row .card:nth-child(4) {
+    border-right: none;
+}
 .card img {
-    width: 20%;
+    height: 28px;
     margin: auto;
 }
-
 .card h2 {
     margin-top: 20px;
-    font-size: 40px;
 }
-
 .card .fa-plus {
     font-size: 10px;
     vertical-align: middle;
+}
+
+/* SECTION 3 */
+.sect-3 .col {
+    margin-right: 50px;
+}
+.sect-3 .descript {
+    width: 160px;
+    text-align: left;
+}
+.sect-3 .card {
+    vertical-align: middle;
+}
+.sect-3 .menu-right {
+    width: 60%;
+}
+.sect-3 .card img {
+    height: 100%;
 }
