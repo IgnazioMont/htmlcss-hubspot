@@ -68,21 +68,14 @@ h4 {
 }
 
 
-
-
-
-/* Fixed login */
+/* FIXED LOGIN */
 .fixed {
+    border-bottom: 1px solid black;
     position: fixed;
     top: 0;
     width: 100%;
     background-color: #f4f9fd;
-}
-.choose {
-    margin-top: 20px;
-}
-.fixed .col.choose {
-    font-size: 15px;
+    padding: 16px;
 }
 .fixed .col.login {
     float: right;
@@ -90,25 +83,45 @@ h4 {
 .fixed .button {
     padding: 10px;
 }
-
-
 .fixed .fa-search {
     color: #00a4bd;
 }
-
+.fixed .global {
+    margin-top: 8px;
+}
+.fixed .global a {
+    text-decoration: none;
+    color: #33475b;
+}
+#bord-line {
+    padding-right: 15px;
+    border-right: 1px solid black;
+}
+.fixed .global:last-child li {
+    margin-right: 15px;
+}
+.fixed .button, .choose {
+    margin: 0;
+}
+.fixed .login .button.white {
+    background-color: white;
+    color: #fe775a;
+    border: 1px solid #fe775a;
+    margin: 0 18px;
+}
+.fixed .login .button {
+    border: 1px solid #fe775a;
+}
 .fixed li {
     text-decoration: none;
     display: inline-block;
 }
 
 
-
-
-
-
 /* HEADER */
 header {
-    margin-top: 70px;
+    margin-top: 74px;
+    background-color: white;
 }
 
 /* NAV + MENU */
@@ -121,9 +134,8 @@ header {
 .col {
     float: left;
 }
-nav {
+header nav {
     padding: 15px 0;
-    margin-bottom: 0;
 }
 header .logo img {
     color: #33475b;
