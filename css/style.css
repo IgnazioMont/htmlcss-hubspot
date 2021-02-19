@@ -68,7 +68,7 @@ h4 {
 }
 
 
-/* FIXED LOGIN */
+/* LOGIN FIXED */
 .fixed {
     border-bottom: 1px solid black;
     position: fixed;
@@ -85,6 +85,9 @@ h4 {
 }
 .fixed .fa-search {
     color: #00a4bd;
+}
+.fixed .login li:hover .fa-search {
+    color: #fe775a;
 }
 .fixed .global {
     margin-top: 8px;
@@ -108,6 +111,10 @@ h4 {
     color: #fe775a;
     border: 1px solid #fe775a;
     margin: 0 18px;
+}
+.fixed .login li:hover .button.white {
+    background-color: #fe775a;
+    color: white;
 }
 .fixed .login .button {
     border: 1px solid #fe775a;
@@ -389,6 +396,10 @@ footer .bg-footer {
     color: #cbd6e2;
     text-decoration: none;
 }
+.four-col li:hover a {
+    color: #fe775a;
+    text-decoration: underline;
+}
 .four-col li:first-child {
     font-weight: 700;
     margin-bottom: 14px;
@@ -396,14 +407,15 @@ footer .bg-footer {
 
 /* Column 4, button + social */
 /* Button */
-.four-col ul .button {
+.four-col .main-text ul li .button {
     margin: 16px 0;
     color: #32495b;
     background-color: #dadee0;
     padding: 0 20px;
+    text-decoration: none;
 }
 /* Social imgs */
-.four-col .social-imgs a {
+.four-col .main-text .social-imgs a {
     color: #cbd6e2;
     font-size: 20px;
     margin-right: 20px;
@@ -419,6 +431,22 @@ footer .languages.main-text a {
     text-align: center;
     text-decoration: none;
     color: #cbd6e2;
+}
+/* Social hover colors */
+.social-imgs a:hover #face {
+    color: #1877f2;
+}
+.social-imgs a:hover #insta {
+   color: #c13584;
+}
+.social-imgs a:hover #yt {
+    color: #f00;
+}
+.social-imgs a:hover #tw {
+    color: #16a2f2;
+}
+.social-imgs a:hover #l-in {
+    color: #0a66c2;
 }
 
 /* Bottom-row */
