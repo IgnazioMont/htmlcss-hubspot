@@ -167,10 +167,9 @@ header .menu li {
 
 /* Background img */
 header .bg-img {
-    height: 800px;
+    height: 750px;
     background-image: url("../img/jumbotron.png");
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
 }
 
@@ -437,7 +436,7 @@ footer .languages.main-text a {
     color: #1877f2;
 }
 .social-imgs a:hover #insta {
-   color: #c13584;
+    color: #c13584;
 }
 .social-imgs a:hover #yt {
     color: #f00;
@@ -466,9 +465,6 @@ footer .bottom-row .main-text {
 }
 
 /* Policy */
-footer .menu-right .menu {
-    float: right;
-}
 footer .menu-right .menu li {
     list-style-type: none;
     display: inline-block;
